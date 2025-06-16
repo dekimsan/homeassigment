@@ -1,0 +1,821 @@
+* {
+  font-family: mulish;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-items: center;
+}
+
+.box {
+  width: 1720px;
+}
+/* start of navigation bar */
+.dsplflx {
+  position: relative;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.logopstn {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.logoimg {
+  width: 53px;
+  height: 26px;
+}
+
+h1 {
+  margin-left: 8px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.pgs {
+  display: flex;
+  width: 633px;
+  height: 41px;
+  justify-content: space-between;
+}
+
+.pgs a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #5956e9;
+  font-size: 13px;
+}
+
+.notactive {
+  color: #cfcfcf;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.dropdownmenu button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+}
+
+.contentmenu {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: fit-content;
+  position: absolute;
+  display: none;
+}
+
+.title:hover ~ .contentmenu {
+  display: block;
+}
+
+.contentmenu a {
+  padding: 5px;
+  width: 150px;
+  display: block;
+}
+
+.contentmenu:hover {
+  color: #5956e9;
+  display: block;
+}
+
+.contentmenu a:hover {
+  color: #5956e9;
+  padding-left: 10px;
+}
+
+.dropico {
+  margin-left: 5px;
+  margin-top: 13px;
+  background-image: url(dis/img/ico/drop.svg);
+  background-position: center;
+  background-size: 10px 5px;
+  width: 10px;
+  height: 5px;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+}
+
+.dropdownmenu:hover .dropico {
+  transform: rotate(180deg);
+}
+
+/* right btns */
+
+.btnpos {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 213px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartpos {
+  align-content: center;
+  width: 50px;
+}
+
+.cartbtn {
+  border: none;
+  outline: none;
+  border-radius: 62px;
+  background-color: #5956e9;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-image: url(dis/img/ico/Icon.svg);
+  background-position: center;
+  background-size: 19px 18px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.signupbtn {
+  height: 65px;
+  float: right;
+  margin: 0px;
+  border-radius: 62px;
+  outline: 1px solid #e0e0e0;
+  padding: 20px 42px;
+  text-decoration: none;
+  color: black;
+}
+
+.signupbtn p {
+  font-size: 20px;
+}
+
+.signupbtn:hover {
+  background-color: #5956e9;
+  border-radius: 62px;
+  color: #e0e0e0;
+}
+
+/* end of navigation bar */
+
+/* sections */
+
+/* about us banner */
+.aboutusbanner {
+  margin-top: 41px;
+  background-image: url(dis/img/aboutusbanner.png);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 20px;
+  align-content: center;
+  justify-items: center;
+}
+
+.textinbanner {
+  margin: 0px 129px;
+  color: #ffffff;
+  text-align: center;
+  text-wrap: wrap;
+  width: 462px;
+}
+
+.textinbanner h2 {
+  font-size: 60px;
+}
+
+.textinbanner p {
+  font-size: 20px;
+}
+/* about us banner */
+/* ===================================================================== */
+/* onmission */
+/* img */
+
+.blocks {
+  display: flex;
+  margin-top: 210px;
+}
+
+.mssnblg {
+  width: 717px;
+  margin-left: 220px;
+}
+
+.imgnusrs {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: row;
+}
+
+.worker1 {
+  width: 717px;
+}
+
+.activeusers {
+  width: 258px;
+  height: 214px;
+  border-radius: 20px;
+  background-color: #5956e9;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+.font70 {
+  font-size: 70px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.teamwork1 {
+  border-radius: 20px;
+  margin-left: 29px;
+}
+/* img */
+/* text */
+.textblock {
+  flex-direction: row;
+  flex-direction: row;
+  width: 623px;
+  margin-top: 34px;
+  margin-left: 59px;
+  margin-bottom: 27px;
+  /* outline: 1px solid; */
+}
+
+.font50 {
+  font-size: 50px;
+}
+
+.dummytext1 {
+  color: #808080;
+  margin-top: 31px;
+  text-transform: none;
+}
+
+.texttransformnone {
+  text-transform: none;
+}
+
+.advantages {
+  margin-top: 40px;
+  /* outline: 1px solid; */
+  border-top: 1px solid #8080807f;
+}
+
+.adblocks {
+  margin-top: 28.1px;
+  width: 482px;
+  display: flex;
+  text-transform: none;
+  align-content: center;
+}
+
+.placeforicon {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  width: 110px;
+  height: 113px;
+  margin-right: 22px;
+}
+
+.planebgico {
+  background-image: url(dis/img/ico/plane.svg);
+  background-position: center;
+  background-size: 35px 32px;
+  background-repeat: no-repeat;
+}
+
+.gearbgico {
+  background-image: url(dis/img/ico/gear.svg);
+  background-position: center;
+  background-size: 49px;
+  background-repeat: no-repeat;
+}
+
+.adblocks p {
+  color: #808080;
+  font-size: 20px;
+  margin-top: 5px;
+  width: 345px;
+}
+
+.adblocks h3 {
+  font-size: 30px;
+  font-weight: 700;
+  width: 345px;
+  margin-top: 6.5px;
+}
+
+.joinbtn {
+  width: 233px;
+  height: 80px;
+  bottom: 0px;
+  align-content: center;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.joinbtn a {
+  border-radius: 50px;
+  background-color: #2f2f2f;
+  padding: 25px 50px;
+  font-size: 20px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.joinbtn a:hover,
+a:focus {
+  background-color: #e0e0e0;
+  color: #2f2f2f;
+  border: 1px solid #2f2f2f;
+  border-radius: 50px;
+}
+/* text */
+/* onmission */
+
+/* Trust */
+
+.trustpos {
+  margin-top: 49px;
+  text-align: center;
+  /* outline: auto; */
+  width: 1198.7px;
+  justify-self: center;
+  justify-items: center;
+}
+
+.trustpos h3 {
+  width: 848px;
+  font-size: 50px;
+}
+
+.statspos {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stats {
+  font-size: 70px;
+  color: #5956e9;
+}
+
+.gray20 {
+  color: #808080;
+  font-size: 20px;
+}
+/* Trust */
+/* ================================================================== */
+/* mission */
+.missiontext {
+  width: 590px;
+  /* outline: auto; */
+  padding: 20px 0px 20px 0px;
+}
+
+/* text */
+.checklist {
+  margin-top: 26px;
+  font-size: 20px;
+}
+
+.checklist img {
+  width: 22.57px;
+  height: 22.57px;
+  align-content: center;
+}
+
+.flexlist {
+  display: flex;
+}
+
+#gap {
+  margin: 26px 0px 26px 0px;
+}
+
+.checkboximg {
+  background-image: url(dis/img/ico/checkbox.svg);
+  background-position: center;
+  background-size: 22.5px;
+  width: 22.6px;
+  height: 22.6px;
+  align-self: center;
+  margin-right: 9.43px;
+}
+
+/* ourvalues */
+.sectionsetup {
+  width: 80%;
+  margin-top: 121px;
+  justify-self: center;
+}
+
+.ourvalues {
+  text-align: center;
+  font-size: 50px;
+}
+
+.valuestable {
+  margin-top: 26px;
+  width: 450px;
+  padding: 70px 50px;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 20px;
+  color: #808080;
+  border-radius: 20px;
+  /* outline: 0px solid; */
+  border: 1px solid white;
+  transition: border-color 0.2s linear 0s;
+}
+
+.valuestable h3 {
+  font-size: 30px;
+  color: #2f2f2f;
+}
+
+.valuestable:hover {
+  /* outline: 3px solid #808080; */
+  border-width: 0;
+  border: 1px solid #808080;
+}
+
+.flexgrid {
+  margin-top: 26px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* our team */
+.teamsection {
+  margin-top: 245px;
+  background-image: url(dis/img/teambackground.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  justify-items: center;
+}
+
+/* text part */
+.teamblock {
+  padding-top: 173px;
+  padding-bottom: 212.67px;
+}
+
+.teamblockin {
+  width: 1401px;
+  /* outline: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.textdiv {
+  width: 590px;
+  color: #e0e0e0;
+}
+
+.textdiv p {
+  margin-top: 26px;
+}
+
+.joinbtn2 {
+  position: relative;
+  float: right;
+  width: 233px;
+  height: 80px;
+  text-align: center;
+  padding: 25px 0px;
+  margin-top: 35px;
+}
+
+.joinbtn2 a {
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  padding: 25px 50px;
+  font-size: 20px;
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.joinbtn2 a:hover,
+a:focus {
+  background-color: #2f2f2f;
+  color: #e0e0e0;
+  border-radius: 50px;
+}
+/* text part */
+
+/* photo and info */
+
+.carts {
+  margin-top: 39px;
+  display: flex;
+  width: 1401px;
+  justify-content: space-between;
+}
+
+.namensoc {
+  justify-content: center;
+  margin-top: 26px;
+  color: #cfcfcf;
+  text-align: center;
+}
+
+.flora {
+  background-image: url(dis/img/flora.jpg);
+  background-position: right;
+  background-size: cover;
+  width: 250px;
+  height: 360px;
+}
+
+.socico {
+  width: 122.97px;
+  align-content: center;
+  align-items: center;
+  justify-self: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 16px;
+}
+
+.socico img {
+  height: 24.6px;
+}
+
+/* photo and info */
+
+/* our team */
+
+/* investors */
+.investorssec {
+  margin-top: 169px;
+  justify-self: center;
+  width: 1401px;
+}
+
+.investorssec h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.companies {
+  gap: 35px 31px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 41px;
+}
+
+.comblocks {
+  width: 685px;
+  height: 274px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  align-content: center;
+  /* outline: auto; */
+  justify-items: center;
+}
+
+.cominfo {
+  /* outline: 1px solid; */
+  width: 527px;
+}
+
+.cominfo p {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.fecegoog {
+  font-size: 40px;
+  display: flex;
+}
+
+.inilla {
+  font-size: 35px;
+  display: flex;
+}
+
+/* investors */
+/* ======================================================== */
+/* footer */
+footer {
+  margin-top: 195px;
+  width: 1400px;
+  justify-self: center;
+}
+/* section title */
+.sectionfoottitle {
+  height: 180px;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+.footertitle {
+  height: 80px;
+  display: flex;
+  margin: 50px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.casestdbtn {
+  font-size: 20px;
+  padding: 27.5px 0px;
+  height: 80px;
+}
+
+.casestdbtn a {
+  text-decoration: none;
+  color: #2f2f2f;
+  border-radius: 50px;
+  outline: 1px solid #808080;
+  text-align: center;
+  padding: 25.5px 38px;
+}
+/* section title */
+
+/* footer nav */
+.sectionnav {
+  margin-top: 69px;
+  /* outline: auto; */
+}
+
+.fullinfosize {
+  display: flex;
+}
+
+.info {
+  width: 732px;
+  height: 376px;
+  display: flex;
+  border-right: 1px solid #dcdcdc;
+}
+
+.info a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+  display: flex;
+  margin: 5px 0px;
+}
+
+.info a:hover {
+  color: #5956e9;
+}
+
+.info h2 {
+  margin-bottom: 30px;
+}
+
+.resources {
+  display: flex;
+  width: 356px;
+  justify-content: space-between;
+}
+
+.rescontent {
+  width: 356px;
+}
+
+.utilitypgs {
+  width: 191px;
+  margin-left: 129px;
+}
+
+/* popular plan */
+.startupplan {
+  margin-left: 56px;
+  width: 612px;
+  height: 376px;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+}
+
+.planinfo {
+  display: flex;
+  margin: 51px 0px 0px 50px;
+  /* outline: 1px solid tomato; */
+  height: 274px;
+  color: #ffffff;
+}
+
+.popular {
+  margin: 28px 0px 0px 6px;
+}
+
+.startup25 {
+  margin-top: 0;
+  margin-left: 6px;
+  display: flex;
+  font-size: 30px;
+  height: 75px;
+  align-items: center;
+}
+
+.twentyfive {
+  font-size: 50px;
+}
+
+.chooseplanbtn {
+  margin-top: 14px;
+  align-items: center;
+  text-align: center;
+  padding: 25px 0px;
+
+}
+
+.chooseplanbtn a {
+  padding: 25px 36px;
+  background-color: #424242;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.chooseplanbtn a:hover{
+  background-color: #ffffff;
+  color: #424242;
+} 
+
+.offerlistbox{
+  margin-left: 34px;
+  height: 274px;
+  border-left: 1px solid #646464;
+}
+.list{
+  padding-top: 20px ;
+  margin-left: 33.1px;
+  font-size: 20px;
+}
+
+.list span{
+  margin-left: 9px;
+}
+
+.list div{
+  padding-bottom: 16.26px;
+
+}
+
+.specialcolor{
+  color: #38d4ff;
+}
+/* popular plan */
+
+.creditsbox{
+  margin-top: 69px;
+  border-top: 1px solid #646464;
+}
+
+.creditspos{
+  justify-content: space-between;
+  margin-top: 31px;
+  display: flex;
+}
+
+.credit{
+  color: #808080;
+  font-size: 20px;
+}
+
+.credit span{
+  color: #2f2f2f;
+}
+
+.socialicons{
+  width: 156.56px;
+  height: 24px;
+  display: flex;
+  justify-content:space-between ;
+}
+/* footer nav */
